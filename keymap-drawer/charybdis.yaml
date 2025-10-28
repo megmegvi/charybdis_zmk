@@ -52,8 +52,8 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - DELETE
-  - L CLK
-  - R CLK
+  - '&mkp MB1'
+  - '&mkp MB2'
   - SPACE
   - {t: LEFT COMMAND, h: Default_Sub}
   - {t: ENTER, h: Default_Sub}
@@ -109,8 +109,8 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - DELETE
-  - L CLK
-  - R CLK
+  - '&mkp MB1'
+  - '&mkp MB2'
   - SPACE
   - {type: held}
   - {t: ▽, type: trans}
@@ -809,7 +809,7 @@ combos:
   k: {t: GAME, h: toggle}
   l: [QUERTZ, MAC, FN]
 - p: [41, 42]
-  k: {t: FN, h: toggle}
+  k: {t: Default_Main, h: toggle}
   l: [QUERTZ, MAC, GAME]
 - p: [31, 28]
   k: CAPS WORD
